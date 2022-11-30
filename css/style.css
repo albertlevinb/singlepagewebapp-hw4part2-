@@ -1,0 +1,105 @@
+/* 
+Name: Albert Levin 
+Date: 11/29/22 
+*/
+
+/* Multiplication Table */
+table, td {
+	border: 2px solid black;
+}
+tr {
+	height: 30px;
+}
+tr:first-child {
+	background-color: white;
+	font-weight: bold;
+}
+td {
+	min-width: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+td:first-child {
+	background-color: white;
+	font-weight: bold;
+}
+h1 {
+	color: #5d5d5d;
+	background-size: auto;
+	text-align: center;
+	border-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-style: solid;
+	border-width: 3px;
+}
+form div {
+	padding: 2px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+form label {
+	margin-right: 10px;
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+}
+input[type="text"] {
+	width: 50px;
+	margin-right: 20px;
+	border: 1px solid #d3d3d3;
+	font-size: inherit;
+	text-align: center;
+}
+/* Sliders: https://www.w3schools.com/howto/howto_js_rangeslider.asp */
+.ui-slider-horizontal {
+	height: 10px;
+	width: 150px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.ui-slider .ui-slider-handle {
+	height: 20px;
+	width: 5px;
+	padding-left: 5px;
+}
+/* Invalid texts and error messages */
+.error {
+	color: red;
+}
+span.error {
+	font-size: 16px;
+}
+/* Buttons */
+.buttonBox {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	text-align: center;
+}
+button {
+	margin-right: 10px;
+}
+/* Tab label */
+.tabs li div {
+	display: inline-block;
+}
+.ui-tabs-panel {
+	overflow-x: auto;
+}
+.tabCheckBox {
+	position: absolute;
+	right: 1px;
+}
+/* Standard button styling: https://www.w3schools.com/css/css3_buttons.asp */
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
